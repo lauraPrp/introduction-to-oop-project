@@ -55,7 +55,7 @@ public class MainBirds {
         allSpin(penguin, pigeon, parrot);
         allFly(penguin, pigeon, parrot);
         allDoCaterpillar(penguin, pigeon, parrot);
-        penguin.doSomethingInheritable();
+        doWhatSeaAnimalsDo(penguin);
     }
 
 }

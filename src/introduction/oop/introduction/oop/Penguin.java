@@ -13,24 +13,24 @@ public class Penguin extends Bird implements SeaCreature {
 
     @Override
     public void fly() {
-        System.out.println("Whoops, I can't fly. Waddle waddle.");
+        System.out.println(name + " Whoops, I can't fly. Waddle waddle.");
         swim();
     }
 
 
     @Override //inherits from SeaCreature interface
     public void swim() {
-        System.out.println("I'm better at swimming");
+        System.out.println(name + " I'm better at swimming");
     }
 
     @Override
     public void sing() {
-        System.out.println("Sorry. I'm not a siren");
+        System.out.println(name + " Sorry. I'm not a siren");
     }
 
     @Override
     public void crawl() {
-        System.out.println("That's for crabs");
+        System.out.println(name + " That's for crabs");
     }
 
 
